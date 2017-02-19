@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringFileScan:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringFileScan_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringFileScan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringFileScan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.6.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.6.RELEASE" />
+          <element id="file-copy" path="D:/Program Files/jakarta-taglibs-standard-1.1.2/lib/jstl.jar" />
+          <element id="file-copy" path="D:/Program Files/jakarta-taglibs-standard-1.1.2/lib/standard.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
